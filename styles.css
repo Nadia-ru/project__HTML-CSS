@@ -7,7 +7,9 @@
     font-family: 'Roboto';
     src: url(/fonts/Roboto-Regular.ttf);
 }
+.container{
 
+}
 .page__header {
     display: flex;
     flex-direction: row;
@@ -44,4 +46,48 @@
 .navigation__items img {
     width: 24px;
     height: 24px;
+}
+.main-screen{
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 165px;
+    align-items: center;
+}
+.main-screen__description{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-screen__description h1{
+    color: #4C5866;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 60px */
+}
+.main-screen__description p{
+    color: #85859B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.btn{
+    width: 255px;
+    height: 70px;
+    color: #7875FE;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #7875FE;
+    background-color: #ffff;
+    padding: 20px 50px;
+}
+.main-screen__picture{
+    width: 540px;
 }
