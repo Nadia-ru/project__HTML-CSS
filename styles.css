@@ -7,9 +7,11 @@
     font-family: 'Roboto';
     src: url(/fonts/Roboto-Regular.ttf);
 }
-.container{
+
+.container {
 
 }
+
 .page__header {
     display: flex;
     flex-direction: row;
@@ -47,19 +49,22 @@
     width: 24px;
     height: 24px;
 }
-.main-screen{
+
+.main-screen {
     height: 620px;
     display: flex;
     flex-direction: row;
     padding: 0 165px;
     align-items: center;
 }
-.main-screen__description{
+
+.main-screen__description {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.main-screen__description h1{
+
+.main-screen__description h1 {
     color: #4C5866;
     font-family: Roboto;
     font-size: 60px;
@@ -67,7 +72,8 @@
     font-weight: 400;
     line-height: 100%; /* 60px */
 }
-.main-screen__description p{
+
+.main-screen__description p {
     color: #85859B;
     font-family: Roboto;
     font-size: 18px;
@@ -75,7 +81,8 @@
     font-weight: 400;
     line-height: 150%; /* 27px */
 }
-.btn{
+
+.btn {
     width: 255px;
     height: 70px;
     color: #7875FE;
@@ -88,6 +95,72 @@
     background-color: #ffff;
     padding: 20px 50px;
 }
-.main-screen__picture{
+
+.main-screen__picture {
     width: 540px;
+}
+
+.info {
+    background-color: #EBEBEB;
+    padding: 90px 125px;
+}
+
+.info__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.info__list__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-img {
+    width: 160px;
+    height: 118px;
+}
+
+.card-text strong {
+    color: #666;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.card-text p {
+    color: #85859B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.info__image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info__image h2{
+    color: #666;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 40px */
+    padding-bottom: 20px;
+}
+.info__image p{
+    color: #85859B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 30.6px */
 }
