@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 @font-face {
@@ -31,7 +32,7 @@
 
 .navigation p {
     color: #4C5866;
-    font-family: Roboto;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -66,7 +67,7 @@
 
 .main-screen__description h1 {
     color: #4C5866;
-    font-family: Roboto;
+
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -75,7 +76,7 @@
 
 .main-screen__description p {
     color: #85859B;
-    font-family: Roboto;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -86,7 +87,7 @@
     width: 255px;
     height: 70px;
     color: #7875FE;
-    font-family: Roboto;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -126,7 +127,7 @@
 
 .card-text strong {
     color: #666;
-    font-family: Roboto;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -135,7 +136,7 @@
 
 .card-text p {
     color: #85859B;
-    font-family: Roboto;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -149,7 +150,7 @@
 }
 .info__image h2{
     color: #666;
-    font-family: Roboto;
+
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -158,7 +159,7 @@
 }
 .info__image p{
     color: #85859B;
-    font-family: Roboto;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -183,7 +184,7 @@
 }
 .products__item strong{
     color: #666;
-    font-family: Roboto;
+
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -192,7 +193,7 @@
 }
 .products__item__count{
     color: #B5B5BD;
-    font-family: Roboto;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -201,7 +202,7 @@
 }
 .products__item__description{
     color: #85859B;
-    font-family: Roboto;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -210,7 +211,7 @@
 }
 .products__item a{
     color: #7875FE;
-    font-family: Roboto;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -242,7 +243,7 @@ display: flex;
 }
 .sale__description h2{
     color: #666;
-    font-family: Roboto;
+
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -251,10 +252,47 @@ display: flex;
 }
 .sale__description p{
     color: #85859B;
-    font-family: Roboto;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 170%; /* 30.6px */
     padding-bottom: 30px;
+}
+.sale__img img{
+    object-fit: cover;
+    overflow: hidden;
+    overflow-clip-margin: 0px;
+
+}
+.page__footer{
+
+}
+.page__footer__info{
+    padding: 28px 165px;
+    background: #4C5866;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.media img{
+    height: 24px;
+    width: 24px;
+}
+
+.page__footer__end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
